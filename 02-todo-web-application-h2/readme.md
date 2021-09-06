@@ -21,6 +21,8 @@ We will deploy to Docker as a WAR
 
 - http://localhost:8080/h2-console
 - Use `jdbc:h2:mem:testdb` as JDBC URL 
+- Use `sa` as UserName
+- Leave Password as blank 
 
 
 ## Plugins
