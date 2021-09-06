@@ -9,14 +9,14 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World v4";
+		return "Hello World v6";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
 		// throw new RuntimeException("Some Error has Happened! Contact Support at
 		// ***-***");
-		return new HelloWorldBean("Hello World v4");
+		return new HelloWorldBean("Hello World v6");
 	}
 
 	/// hello-world/path-variable/in28minutes
